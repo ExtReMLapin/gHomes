@@ -1,0 +1,49 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 90 90}",
+		"{0 270 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 84293,
+	"rentprice": 464,
+	"doorsid": 
+	[
+		1806,
+		1807,
+		1808,
+		1809,
+		1810
+	],
+	"boxes": 
+	[
+		"[3672.4063 3015 -209.9063]",
+		"[4114.875 3707.8438 65]"
+	],
+	"ownersteamid": "",
+	"props": 
+	[],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{12.25 -157.375 0}",
+	"panelpos": 
+	[
+		"[4107.0313 3323.0313 -115]",
+		"[4094.9688 3369.1563 -115]"
+	],
+	"ownername": "",
+	"textpos": "[4107.0313 3307.5 -52.4688]",
+	"bellpos": "[3858.0313 3168.625 -84.6563]",
+	"textangle": "{0 90 90}",
+	"name": "Cheeki breeki",
+	"camerapos": "[4279.5938 3485.1563 -32.8438]"
+}

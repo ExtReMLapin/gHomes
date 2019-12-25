@@ -1,0 +1,43 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 90 90}",
+		"{0 270 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 11194,
+	"rentprice": 62,
+	"doorsid": 
+	[
+		1629
+	],
+	"boxes": 
+	[
+		"[2089.875 -1534.3438 -214.375]",
+		"[2380 -1126.5313 49.4688]"
+	],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{18.6875 -166.4063 0}",
+	"panelpos": 
+	[
+		"[2380.0313 -1525.6875 -115]",
+		"[2359.9688 -1474.3125 -120]"
+	],
+	"ownersteamid": "",
+	"ownername": "",
+	"textpos": "[2380.0313 -1528.6563 -55.2813]",
+	"bellpos": "[2154.0313 -1374.4688 -94.4063]",
+	"textangle": "{0 90 90}",
+	"name": "Detroit",
+	"camerapos": "[2526.4375 -1284.7813 2.5625]"
+}

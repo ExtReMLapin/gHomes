@@ -1,0 +1,45 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 90 90}",
+		"{0 270 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 13407,
+	"rentprice": 74,
+	"doorsid": 
+	[
+		1414,
+		1415,
+		1416
+	],
+	"boxes": 
+	[
+		"[7153.5938 4094.5625 -18.0625]",
+		"[7479.625 4364.2813 134.375]"
+	],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{16.4375 134.5313 0}",
+	"panelpos": 
+	[
+		"[7478.0313 4261 85]",
+		"[7465.9688 4305.8125 85]"
+	],
+	"ownersteamid": "",
+	"ownername": "",
+	"textpos": "[7574.0313 4098.2813 118.4375]",
+	"bellpos": "[7320.0313 4227.6875 98.25]",
+	"textangle": "{0 90 90}",
+	"name": "Average socialist",
+	"camerapos": "[7692.2813 3954.7188 187.5938]"
+}

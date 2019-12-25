@@ -1,0 +1,48 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 180 90}",
+		"{0 360 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 173191,
+	"rentprice": 952,
+	"doorsid": 
+	[
+		2984,
+		2986,
+		2988,
+		2989,
+		2992,
+		2996
+	],
+	"boxes": 
+	[
+		"[5943 -12289.5625 -249.2188]",
+		"[6602.1875 -11495.4063 81.5625]"
+	],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{16.5938 -108.8125 0}",
+	"panelpos": 
+	[
+		"[6458.8125 -11645.9688 -110]",
+		"[6412.2813 -11658.0313 -110]"
+	],
+	"ownersteamid": "",
+	"ownername": "",
+	"textpos": "[6588.7813 -11517.9688 -64]",
+	"bellpos": "[6503.9688 -11935.2188 -77.3438]",
+	"textangle": "{0 180 90}",
+	"name": "Goodneighbor",
+	"camerapos": "[6478.8438 -11272.4688 0.375]"
+}

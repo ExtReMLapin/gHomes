@@ -1,0 +1,43 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 180 90}",
+		"{0 360 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 974,
+	"rentprice": 6,
+	"doorsid": 
+	[
+		1392
+	],
+	"boxes": 
+	[
+		"[-1127.5313 -8291.6875 41.2188]",
+		"[-843.4688 -8010.625 194.25]"
+	],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{35.0313 -122.5 0}",
+	"panelpos": 
+	[
+		"[-916.5313 -8008.9688 145]",
+		"[-962.75 -8021.0313 140]"
+	],
+	"ownersteamid": "",
+	"ownername": "",
+	"textpos": "[-856.9688 -8008.9688 172.2813]",
+	"bellpos": "[-1012.4375 -8187.0313 167.5938]",
+	"textangle": "{0 180 90}",
+	"name": "Shit hole",
+	"camerapos": "[-720.9375 -7595.4688 425]"
+}

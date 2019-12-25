@@ -1,0 +1,45 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 90 90}",
+		"{0 270 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 132003,
+	"rentprice": 726,
+	"doorsid": 
+	[
+		1791,
+		1792,
+		1793
+	],
+	"boxes": 
+	[
+		"[-1407.5938 -4422.8438 -523.0938]",
+		"[-785.625 -4085.9063 -232.9063]"
+	],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{17.625 148.8125 0}",
+	"panelpos": 
+	[
+		"[-789.9688 -4230.0313 -410]",
+		"[-802.0313 -4184.4375 -410]"
+	],
+	"ownersteamid": "",
+	"ownername": "",
+	"textpos": "[-789.9688 -4413.9375 -348.9688]",
+	"bellpos": "[-1152.0313 -4217.25 -384.375]",
+	"textangle": "{0 90 90}",
+	"name": "Loft",
+	"camerapos": "[-591.0313 -4357 -315.25]"
+}

@@ -1,0 +1,46 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 90 90}",
+		"{0 270 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 73283,
+	"rentprice": 403,
+	"doorsid": 
+	[
+		2767,
+		2768,
+		2769,
+		2770
+	],
+	"boxes": 
+	[
+		"[-4682.7813 6139.4688 -527.2188]",
+		"[-3873.125 6530.0313 -295.4688]"
+	],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{16.5938 153.3125 0}",
+	"panelpos": 
+	[
+		"[-3965.9688 6228.0313 -410]",
+		"[-3986.0313 6273 -410]"
+	],
+	"ownersteamid": "",
+	"ownername": "",
+	"textpos": "[-3965.9688 6181.0625 -348.8125]",
+	"bellpos": "[-4360.1875 6248.0313 -391.4375]",
+	"textangle": "{0 90 90}",
+	"name": "Cozy nest",
+	"camerapos": "[-3770.3125 6058.5313 -236.25]"
+}

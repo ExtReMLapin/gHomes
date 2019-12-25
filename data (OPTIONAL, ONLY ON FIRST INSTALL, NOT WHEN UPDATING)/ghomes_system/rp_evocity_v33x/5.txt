@@ -1,0 +1,45 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 360 90}",
+		"{0 180 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 46125,
+	"rentprice": 254,
+	"doorsid": 
+	[
+		1732,
+		1733,
+		1734
+	],
+	"boxes": 
+	[
+		"[-9972.8125 11113.8438 181.3125]",
+		"[-9583.2188 11759.4688 364.6875]"
+	],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{12 115.375 0}",
+	"panelpos": 
+	[
+		"[-9928.5 11115.9688 315]",
+		"[-9882.0625 11128.0313 315]"
+	],
+	"ownersteamid": "",
+	"ownername": "",
+	"textpos": "[-9585.9688 11124.4063 357.25]",
+	"bellpos": "[-9710.1875 11437.9688 337]",
+	"textangle": "{0 90 90}",
+	"name": "Riverside",
+	"camerapos": "[-9575.2188 10792.9688 418.5625]"
+}

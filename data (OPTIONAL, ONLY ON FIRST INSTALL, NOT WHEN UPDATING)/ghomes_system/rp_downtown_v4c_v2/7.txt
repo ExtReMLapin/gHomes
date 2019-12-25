@@ -1,0 +1,46 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 180 90}",
+		"{0 360 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 94406,
+	"rentprice": 519,
+	"doorsid": 
+	[
+		2635,
+		2636
+	],
+	"boxes": 
+	[
+		"[-3072.6563 -7364.8438 -206.25]",
+		"[-2267.6563 -6700.2813 -29.7813]"
+	],
+	"props": 
+	[],
+	"bellpos": "[-2702.9688 -7132.5 -70.3438]",
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{9.2188 -129.8125 0}",
+	"panelpos": 
+	[
+		"[-2369.6563 -7077.9688 -90]",
+		"[-2416.625 -7086.0313 -90]"
+	],
+	"textangle": "{0 180 90}",
+	"textpos": "[-2455.2188 -6709.9688 -50.5938]",
+	"ownername": "",
+	"ownersteamid": "",
+	"name": "Anime = mistake",
+	"camerapos": "[-2288.6875 -6583.5313 -48.4063]"
+}

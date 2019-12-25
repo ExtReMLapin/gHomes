@@ -1,0 +1,46 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 90 90}",
+		"{0 180 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 121510,
+	"rentprice": 668,
+	"doorsid": 
+	[
+		1778,
+		1779,
+		1782,
+		1785
+	],
+	"boxes": 
+	[
+		"[-2193 7612.5938 528.2813]",
+		"[-1536.7188 8463.3125 745.9063]"
+	],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{14.9375 -37.4375 0}",
+	"panelpos": 
+	[
+		"[-1533.9688 8084.75 695]",
+		"[-1567.2188 8122.0313 695]"
+	],
+	"ownersteamid": "",
+	"ownername": "",
+	"textpos": "[-1533.9688 8054.5625 737.5]",
+	"bellpos": "[-1854.0313 7944.0313 735.2188]",
+	"textangle": "{0 90 90}",
+	"name": "Apartment #1",
+	"camerapos": "[-2342.6875 8563 746.2188]"
+}

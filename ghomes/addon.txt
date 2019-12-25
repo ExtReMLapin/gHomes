@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"        "ghomes"
+	"version"     "RC02072018"
+	"author_name" "[ExtReM] Lapin"
+	"author_url"  "extrem-team.com"
+	"info"        ""
+	"override"    "0"
+}

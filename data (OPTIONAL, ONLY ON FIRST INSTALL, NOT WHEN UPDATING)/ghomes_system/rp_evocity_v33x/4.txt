@@ -1,0 +1,45 @@
+
+{
+	"friends": 
+	[],
+	"friendsname": 
+	[],
+	"buyablemode": 1,
+	"panelangle": 
+	[
+		"{0 360 90}",
+		"{0 180 90}"
+	],
+	"panels": 
+	[],
+	"permaprice": 32421,
+	"rentprice": 179,
+	"doorsid": 
+	[
+		1741,
+		1742,
+		1743
+	],
+	"boxes": 
+	[
+		"[-13853.5 11877.125 237.2813]",
+		"[-13468.3438 12526.7813 366.8438]"
+	],
+	"isrented": false,
+	"doors": 
+	[],
+	"ispermarented": false,
+	"cameraangle": "{6.5938 58.5 0}",
+	"panelpos": 
+	[
+		"[-13813.1563 11883.9688 315]",
+		"[-13767.2813 11896.0313 315]"
+	],
+	"ownersteamid": "",
+	"ownername": "",
+	"textpos": "[-13467.9688 11892.5313 356.9375]",
+	"bellpos": "[-13614.5938 12205.9688 340.9688]",
+	"textangle": "{0 90 90}",
+	"name": "Lady of the lake",
+	"camerapos": "[-13873.5938 11623.6563 353.4688]"
+}
