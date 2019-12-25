@@ -16,7 +16,7 @@ You can either buy/rent the home/apartment directly on it's front panel or go to
 
 *   [**From the 3D2D panel**](https://i.imgur.com/YbCrFH2.gifv)
 *   [**From the 2D panel like darkrp using F2**](https://youtu.be/BvZJrLRlv8c)
-*   [**Or from the NPC**](https://i.imgur.com/CKlQ9zs.gif)(Only available before 4.0, so you need to download the version 3.8 to do so)
+*   [**Or from the NPC**](https://i.imgur.com/CKlQ9zs.gif)
 
 ![](https://i.imgur.com/gyO07pu.png) Let the players rent or purchase properties (You do like : max rental = 3 days, autosell after not connected after _x_ days in the config)
 
