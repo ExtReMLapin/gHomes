@@ -1,6 +1,8 @@
 # ghomes
 gHomes for Garry's mod | All-in-one property solution [Buy/rent from NPC or from 3D/2D Panel]
 
+DLC is included
+
 [used to be sold on gmodstore](https://www.gmodstore.com/market/view/4858)
 
 ![](https://i.imgur.com/nuy5vTn.png)
