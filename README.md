@@ -81,5 +81,5 @@ _sexy booting animation which you will see only once ;), don't worry about seein
 
 Take a look at BadCoderz, the first addon that find unoptimized code on your server.
 
-[![](https://i.imgur.com/wq5F2hG.jpg)](https://www.gmodstore.com/market/view/6510)
+[![](https://i.imgur.com/wq5F2hG.jpg)](https://github.com/ExtReMLapin/BadCoderz/)
 
