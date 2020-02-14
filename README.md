@@ -1,4 +1,4 @@
-# ghomes
+# gHomes
 gHomes for Garry's mod | All-in-one property solution [Buy/rent from NPC or from 3D/2D Panel]
 
 DLC is included
@@ -7,7 +7,7 @@ DLC is included
 ![](https://i.imgur.com/nuy5vTn.png)
 
 
-## GHomes allows your players to rent/purchase houses or apartments.
+## gHomes allows your players to rent/purchase houses or apartments.
 
 GHomes is provided with strong and easy-to-use tools which will allow you to quickly add -if the map you're using is not supported yet- houses or apartments to your favorite map.
 
