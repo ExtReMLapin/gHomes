@@ -158,6 +158,9 @@ hook.Add("PlayerDisconnected", "ghomes detect leave",function (ply)
 				if found then
 
 				end]]
+				if v.ispermarented then
+					ghomes.wrapper.addMoney(ply, v.permaprice * ghomes.percentageOnSell)
+				end
 				ghomes.setowner(false, k)
 			end
 		end
