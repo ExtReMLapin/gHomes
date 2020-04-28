@@ -14,7 +14,7 @@ local function addMoney(ply, amount)
 end
 
 local function formatMoney(amount)
-	return ix.currency.get
+	return ix.currency.Get(amount)
 end
 
 local function notify(ply, type, time, message)
