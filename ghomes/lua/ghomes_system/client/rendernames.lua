@@ -11,136 +11,64 @@ surface.CreateFont("DrawHouseName", {
 	font = "Roboto Th", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
 	size = 128,
 	weight = 10,
-	blursize = 0,
-	scanlines = 0,
 	antialias = true,
-	underline = false,
-	italic = false,
-	strikeout = false,
-	symbol = false,
-	rotary = false,
-	shadow = false,
-	additive = false,
-	outline = false
+	extended = true,
 })
 
 surface.CreateFont("DrawHouseNameSmall", {
 	font = "Roboto Th", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
 	size = 64,
 	weight = 10,
-	blursize = 0,
-	scanlines = 0,
 	antialias = true,
-	underline = false,
-	italic = false,
-	strikeout = false,
-	symbol = false,
-	rotary = false,
-	shadow = false,
-	additive = false,
-	outline = false
+	extended = true,
 })
 
 surface.CreateFont("DrawHouseNameSmall48", {
-	font = "Roboto Th", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
+	font = "Roboto Th",
 	size = 48,
 	weight = 10,
-	blursize = 0,
-	scanlines = 0,
 	antialias = true,
-	underline = false,
-	italic = false,
-	strikeout = false,
-	symbol = false,
-	rotary = false,
-	shadow = false,
-	additive = false,
-	outline = false
+	extended = true,
 })
 
 surface.CreateFont("DrawHouseNameSmall32", {
-	font = "Roboto Lt", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
+	font = "Roboto Lt",
 	size = 48,
 	weight = 10,
-	blursize = 0,
-	scanlines = 0,
 	antialias = true,
-	underline = false,
-	italic = false,
-	strikeout = false,
-	symbol = false,
-	rotary = false,
-	shadow = false,
-	additive = false,
-	outline = false
+	extended = true,
 })
 
 surface.CreateFont("DrawHouseNameSmall24", {
-	font = "Roboto Lt", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
+	font = "Roboto Lt",
 	size = 32,
 	weight = 10,
-	blursize = 0,
-	scanlines = 0,
 	antialias = true,
-	underline = false,
-	italic = false,
-	strikeout = false,
-	symbol = false,
-	rotary = false,
-	shadow = false,
-	additive = false,
-	outline = false
+	extended = true,
 })
 
 surface.CreateFont("DrawHouseNameSmall24Bold", {
-	font = "Roboto Bk", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
+	font = "Roboto Bk",
 	size = 27,
 	weight = 0,
-	blursize = 0,
-	scanlines = 0,
 	antialias = true,
-	underline = false,
-	italic = false,
-	strikeout = false,
-	symbol = false,
-	rotary = false,
-	shadow = false,
-	additive = false,
-	outline = false
+	extended = true,
 })
 
 surface.CreateFont("DrawHouseNameSmall12", {
-	font = "Roboto Lt", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
+	font = "Roboto Lt",
 	size = 24,
 	weight = 10,
-	blursize = 0,
-	scanlines = 0,
 	antialias = true,
-	underline = false,
-	italic = false,
-	strikeout = false,
-	symbol = false,
-	rotary = false,
-	shadow = false,
-	additive = false,
-	outline = false
+	extended = true,
 })
 
 surface.CreateFont("DrawHouseNameSmall5", {
-	font = "Roboto", -- Use the font-name which is shown to you by your operating system Font Viewer, not the file name
+	font = "Roboto",
 	size = 20,
 	weight = 10,
-	blursize = 0,
-	scanlines = 0,
 	antialias = true,
-	underline = false,
-	italic = false,
-	strikeout = false,
-	symbol = false,
-	rotary = false,
-	shadow = false,
-	additive = false,
-	outline = false
+	extended = true,
 })
 
 local card = Material("houses/credit-card.png")
