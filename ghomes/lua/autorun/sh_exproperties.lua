@@ -144,8 +144,8 @@ end
 
 -- available choices :
 --[[
-		ghomes.picklanguage(ghomes.languages.fr) -- baguette
-		ghomes.picklanguage(ghomes.languages.en) -- yer bloody wanker
-	--]]
+	ghomes.picklanguage(ghomes.languages.fr) -- baguette
+	ghomes.picklanguage(ghomes.languages.en) -- yer bloody wanker
+	ghomes.picklanguage(ghomes.languages.ru) -- cyka blyat
 --]] 
 ghomes.picklanguage(ghomes.languages.en)
