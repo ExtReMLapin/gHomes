@@ -1,17 +1,20 @@
 surface.CreateFont("GuiSentData1", {
 	font = "Roboto Lt",
-	size = 25
+	size = 25,
+	extended = true,
 })
 
 surface.CreateFont("GuiSentData2", {
 	font = "Roboto Lt",
-	size = 48
+	size = 48,
+	extended = true,
 })
 
 surface.CreateFont("GuiSentData3", {
 	font = "Roboto",
 	size = 35,
-	italic = false
+	italic = false,
+	extended = true,
 })
 
 --Rent mode [1 = all | 2 = buy only | 3 = rent only]
