@@ -188,13 +188,11 @@ net.Receive("ghomes_command", function(len, ply)
 	end -- sell
 
 	if command == 3 and house.isrented and ply == house.owner then
-		local tbl1 = net.ReadTable() -- lazy nigga
-		local tbl2 = net.ReadTable()
-		ghomes.list[id].friendsname = tbl1
-		ghomes.list[id].friends = tbl2
+		net.ReadTable() -- friendsname, unused
+		local friendSteamIDs = net.ReadTable()
+		ghomes.list[id].friends = ghomes.utils.arrayToHashtable(friendSteamIDs)
 		ghomes.savehouse(id)
 		ghomes.net.BroadCastSingleHouseData(id)
-
 		return
 	end
 
@@ -222,7 +220,6 @@ function ghomes.setowner(ply, id, isperma, renttime)
 		ghomes.list[id].ownername = ""
 		ghomes.list[id].ownersteamid = ""
 		ghomes.list[id].friends = {}
-		ghomes.list[id].friendsname = {}
 		ghomes.list[id].props = {}
 		ghomes.list[id].selltime = nil
 		ghomes.list[id].ispermarented = false
@@ -236,14 +233,7 @@ function ghomes.setowner(ply, id, isperma, renttime)
 		hook.Run("SoldPermaHouse", id, ply)
 	else
 		if ghomes.list[id].isrented then
-			for k, v in pairs(ghomes.list[id].friends or {}) do
-				if v == ply:SteamID() then
-					table.remove(ghomes.list[id].friends, k)
-					table.remove(ghomes.list[id].friendsname, k)
-					break
-				end
-			end
-
+			ghomes.list[id].friends[ply:SteamID()] = nil
 			-- remove new owner from friendlist
 			ghomes.list[id].props = ghomes.list[id].props or {}
 
@@ -312,7 +302,6 @@ net.Receive("ghomes_newhouse", function(len, ply)
 
 	if (new) then
 		tblhouse.friends = {}
-		tblhouse.friendsname = {}
 		tblhouse.ownername = ""
 		tblhouse.ownersteamid = ""
 		tblhouse.isrented = false
@@ -322,7 +311,6 @@ net.Receive("ghomes_newhouse", function(len, ply)
 		tblhouse.ispermarented = ghomes.list[id].ispermarented
 		tblhouse.selltime = ghomes.list[id].selltime
 		tblhouse.friends = ghomes.list[id].friends or {}
-		tblhouse.friendsname = ghomes.list[id].friendsname or {}
 		tblhouse.ownername = ghomes.list[id].ownername or ""
 		tblhouse.ownersteamid = ghomes.list[id].ownersteamid or ""
 		tblhouse.owner = ghomes.list[id].owner

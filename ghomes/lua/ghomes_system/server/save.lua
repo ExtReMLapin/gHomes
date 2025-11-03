@@ -94,6 +94,10 @@ function ghomes.restorehouses()
 			error(Format("FAILED TO PARSE FILE #%i please check the file : %s", id, dest))
 		end -- parsing error
 
+		if tbltmphouse.friends and #tbltmphouse.friends > 0 then
+			tbltmphouse.friends = ghomes.utils.arrayToHashtable(tbltmphouse.friends)
+		end
+
 		tbltmphouse.owner = NULL
 
 		if not tbltmphouse.ownersteamid then

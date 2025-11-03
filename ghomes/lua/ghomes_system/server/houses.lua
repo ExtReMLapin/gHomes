@@ -37,7 +37,7 @@ function ghomes.generatedoors(id)
 				return false
 			end
 
-			return ply == door.House.owner or table.HasValue(door.House.friends or {}, ply:SteamID())
+			return ply == door.House.owner or (door.House.friends or {})[ply:SteamID()]
 		end
 
 
@@ -49,8 +49,7 @@ function metavector:IsInHouse(id)
 end
 
 function metaplayer:CanSpawnInHouse(id)
-	if (ghomes.list[id].owner == self) or table.HasValue(ghomes.list[id].friends or {}, self:SteamID()) then return true end
-	return false
+	return ghomes.list[id].owner == self or (ghomes.list[id].friends or {})[self:SteamID()]
 end
 
 function metaplayer:HasAnyHouse(owner_only, purchased_only)
@@ -58,7 +57,7 @@ function metaplayer:HasAnyHouse(owner_only, purchased_only)
 		if not v.isrented then continue end
 		if purchased_only and not v.ispermarented then continue end
 		if v.owner == self then return true end
-		if not owner_only and table.HasValue(v.friends,self:SteamID()) then return true end
+		if not owner_only and (v.friends or {})[self:SteamID()] then return true end
 	end
 	return false;
 end
@@ -69,7 +68,7 @@ function metaplayer:GetHousesName(owner_only, purchased_only)
 		if not v.isrented then continue end
 		if purchased_only and not v.ispermarented then continue end
 		if v.owner == self then table.insert(tbl, v.name) continue end
-		if not owner_only and table.HasValue(v.friends,self:SteamID()) then table.insert(tbl, v.name) continue end
+		if not owner_only and (v.friends or {})[self:SteamID()] then table.insert(tbl, v.name) continue end
 	end
 	return tbl;
 end
