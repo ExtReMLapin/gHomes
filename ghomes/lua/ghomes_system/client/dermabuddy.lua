@@ -746,12 +746,17 @@ function ghomes.buddiespanel(id, pnl)
 	for k, v in pairs(player.GetAll()) do
 		if v:SteamID() == LocalPlayer():SteamID() then continue end -- dnt ad urself lel
 		if ghomes.onlyAllowFriendsAsCoOwner and  (v:GetFriendStatus() ~= "friend") then continue end
-		if table.HasValue(ghomes.list[id].friends, v:SteamID()) then continue end --dnt ad ur friend twic lel
+		if ghomes.list[id].friends[v:SteamID()] then continue end --dnt ad ur friend twic lel
 		PlayerList:AddLine(v:Nick(), v:SteamID())
 	end
 
-	for k, v in pairs(ghomes.list[id].friendsname) do
-		BuddiesList:AddLine(v, ghomes.list[id].friends[k])
+	for steamID, _ in pairs(ghomes.list[id].friends) do
+		local nick = "Disconnected"
+		local ply = player.GetBySteamID(steamID)
+		if IsValid(ply) then
+			nick = ply:Nick()
+		end
+		BuddiesList:AddLine(nick, steamID)
 	end
 
 	local DermaButtonSend = vgui.Create("DButton", DermaPanel)
@@ -764,19 +769,19 @@ function ghomes.buddiespanel(id, pnl)
 		DermaPanel.movetime = CurTime()
 		DermaPanel.movey = select(2, DermaPanel:GetPos())
 		local lines = BuddiesList:GetLines()
-		local tbl1 = {}
-		local tbl2 = {}
+		local friendNames = {}
+		local friendSteamIDs = {}
 
 		for k, v in pairs(lines) do
-			tbl1[k] = v:GetValue(1)
-			tbl2[k] = v:GetValue(2)
+			friendNames[k] = v:GetValue(1)
+			friendSteamIDs[k] = v:GetValue(2)
 		end
 
 		net.Start("ghomes_command")
 		net.WriteUInt(id, 7)
 		net.WriteUInt(3, 4)
-		net.WriteTable(tbl1)
-		net.WriteTable(tbl2)
+		net.WriteTable(friendNames)
+		net.WriteTable(friendSteamIDs)
 		net.SendToServer()
 
 		if IsValid(pnl) then
@@ -1187,7 +1192,7 @@ function ghomes.sellermenu()
 				draw.DrawText(pricetext, "GuiSentData3", 10, 42, color_black, TEXT_ALIGN_LEFT)
 			end
 
-			local isFriend = table.HasValue(v.friends, LocalPlayer():SteamID())
+			local isFriend = (v.friends or {})[LocalPlayer():SteamID()]
 			local isOwner = v.owner == LocalPlayer()
 
 			do

@@ -63,6 +63,7 @@ end
 
 if SERVER then
 	AddCSLuaFile()
+	AddCSLuaFile("ghomes_system/sh_utils.lua")
 	AddCSLuaFile("ghomes_system/sh_lang.lua")
 	AddCSLuaFile("ghomes_system/client/mails.lua")
 	AddCSLuaFile("ghomes_system/client/network.lua")
@@ -72,6 +73,7 @@ if SERVER then
 	AddCSLuaFile("ghomes_system/client/ghomes_render_lib.lua")
 	AddCSLuaFile("ghomes_system/ezlibs.lua")
 	AddCSLuaFile("ghomes_system/sh_network.lua")
+	include("ghomes_system/sh_utils.lua")
 	include("ghomes_system/sh_lang.lua")
 	include("ghomes_system/ezlibs.lua")
 	include("ghomes_system/server/houses.lua") -- houses functions with right system
@@ -115,6 +117,7 @@ if SERVER then
 end
 
 if CLIENT then
+	include("ghomes_system/sh_utils.lua")
 	include("ghomes_system/sh_lang.lua")
 	include("ghomes_system/client/network.lua")
 	include("ghomes_system/client/rendernames.lua")
